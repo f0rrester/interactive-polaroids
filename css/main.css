@@ -28,6 +28,25 @@ html {
   transform: translateX(-50%);
 }
 
+.polaroid:first-child {
+  left: 192px;
+  top: 100px;
+  transform: rotate(-12deg);
+}
+
+.polaroid:nth-child(2) {
+  left: 287px;
+  top: 150px;
+  transform: rotate(5deg);
+  z-index: 10;
+}
+
+.polaroid:last-child {
+  left: 383px;
+  top: 100px;
+  transform: rotate(33deg);
+}
+
 .polaroid:hover {
   z-index: 15;
   transform: rotate(0);
